@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".DailyMotivation"
+        android:background="@android:color/background_dark"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daily Motivation"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_margin="10dp"
+        android:padding="15dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/image6"
+            android:scaleType="fitCenter"
+            android:layout_margin="10dp"
+            android:contentDescription="daily motivation image"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Motivation"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_blue_dark"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+            1.Do exercises for long life\n
+            2.There is reward if you meet the expectations\n
+            3.Eat good meals for your good health"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            android:textSize="15sp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Motivator"
+            android:textSize="20sp"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Press here to receive your award in less than 5mins if met the expectations"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/award"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Award"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:backgroundTint="@android:color/holo_red_dark"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You are all welcomed to any health center for guidance."
+            android:textColor="@android:color/system_accent1_0"
+            android:textSize="20sp"
+            android:padding="10dp"/>
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

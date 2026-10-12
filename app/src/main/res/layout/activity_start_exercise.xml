@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".StartExercise"
+        android:orientation="vertical"
+        android:background="#E4F527"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Exercise"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            android:textColor="#F5274D"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/image5"
+            android:scaleType="fitCenter"
+            android:layout_margin="10dp"
+            android:contentDescription="Start exercise image"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Examples of exercises\n
+            1.Running\n
+            2.Jogging\n
+            3.Dancing\n
+            4.Going for a jim etc."
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="If done all the Exercises"
+            android:textSize="15sp"
+            android:padding="15dp"
+            android:textColor="@android:color/holo_blue_dark"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Importance of exercises\n
+            1.It is good for your health.\n
+            2.It makes your body active"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_orange_dark"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="If seen some changes"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="10dp"/>
+
+        <SeekBar
+            android:id="@+id/changes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="20"
+            android:progress="15"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Advice"
+            android:textSize="20sp"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

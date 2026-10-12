@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HealthyRecipes">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Healthy Recipes"
+        android:textSize="30sp"
+        android:padding="20dp"
+        android:textColor="#536DFE"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image7"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Healthy recipes\n
+        1. Fruit salad \n
+        2.Grilled Chicken \n
+        3. Vegetable stir fry \n
+        4. Oatmeal Breakfast\n
+        5. Avocado Toast\n
+        6. Boiled Eggs \n
+        7. Brown rice and beans"
+        android:textSize="16sp"
+        android:layout_margin="10dp"/>
+
+    </LinearLayout>
+</ScrollView>

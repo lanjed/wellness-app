@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NutritionAdvice">
+
+    <TextView
+        android:id="@+id/nutritionAdvice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nutrition Advice"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/nutrition_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You should atleast take eight glasses of water a day for your good health since water is essential to your body.It prevents also constipation to your body.So take water daily for your health."
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/reward_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Watch and Get Rewarded"
+        android:layout_margin="30dp"/>
+
+</LinearLayout>
